@@ -1,0 +1,133 @@
+.move {
+    position: relative;
+}
+
+.round_form1 {
+    position: absolute;
+    width: 518px;
+    height: 518px;
+    background-color: #1729CE;
+    border-radius: 50%;
+    top: 338.5px;
+    left: 621.11px;
+}
+
+.round_form2 {
+    position: absolute;
+    width: 397px;
+    height: 397px;
+    background-color: #DF9300;
+    border-radius: 50%;
+    top: 43.73px;
+    right: 153.86px;
+}
+
+.round_form3 {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    background-color: #E8038D;
+    border-radius: 50%;
+    top: 752.3px;
+    right: 363.6px;
+}
+
+.tri_game_1 {
+    position: absolute;
+    top: 54px;
+    left: -48.95px;
+    width: 322.1px;
+    height: 339.75px;
+    transform: rotate(18deg);
+    background: url("../images/tri_game_1.svg");
+}
+
+.tri_game_2 {
+    position: absolute;
+    top: 246.85px;
+    left: -151.03px;
+    width: 430.26px;
+    height: 372.62px;
+    transform: rotate(-29.35deg);
+    background: url("../images/tri_game_2.svg");
+}
+
+.tri_game_3 {
+    position: absolute;
+    top: 93.07px;
+    left: 298.87px;
+    width: 313.07px;
+    height: 271.13px;
+    transform: rotate(45.2deg);
+    background: url("../images/tri_game_3.svg");
+}
+
+.club_game_1 {
+    position: absolute;
+    top: 61.2px;
+    left: 499.29px;
+    width: 493.11px;
+    height: 502.71px;
+    transform: rotate(162.97deg);
+    background: url("../images/club_game_1.svg");
+}
+
+.spade_game_1 {
+    position: absolute;
+    top: 594.31px;
+    left: -111.04px;
+    width: 606.51px;
+    height: 662.98px;
+    transform: rotate(-103.05deg);
+    background: url("../images/spade_game_1.svg");
+}
+
+.club_game_2 {
+    position: absolute;
+    top: 726.13px;
+    left: 480.36px;
+    width: 493.11px;
+    height: 502.71px;
+    transform: rotate(-144.84deg);
+    background: url("../images/club_game_2.svg");
+}
+
+.heart_game_1 {
+    position: absolute;
+    top: 278.24px;
+    right: 363.09px;
+    width: 421.77px;
+    height: 444.73px;
+    transform: rotate(-75.39deg);
+    background: url("../images/heart_game_1.svg");
+}
+
+.spade_game_2 {
+    position: absolute;
+    top: 550.84px;
+    right: -227.38px;
+    width: 369.31px;
+    height: 403.7px;
+    transform: rotate(1.33deg);
+    background: url("../images/spade_game_2.svg");
+}
+
+.diamond_game_1 {
+    position: absolute;
+    top: 612.68px;
+    right: 616.18px;
+    width: 550.47px;
+    height: 771.06px;
+    transform: rotate(-22.14deg);
+    background: url("../images/diamond_game_1.svg");
+}
+
+.diamond_game_2 {
+    position: absolute;
+    top: -59px;
+    right: -196.29px;
+    width: 550.47px;
+    height: 771.06px;
+    transform: rotate(33.44deg);
+    background: url("../images/diamond_game_2.svg");
+}

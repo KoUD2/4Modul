@@ -1,0 +1,150 @@
+body{
+    overflow: hidden;
+}
+
+.background1 {
+    position: relative;
+    width: 100vw;
+    height: 56.250vw;
+    overflow: hidden;
+}
+
+.background1 > div {
+    position: absolute;  
+}
+
+.rec1_red {
+    width: 20.313vw;
+    height: 14.583vw;
+    background-color: #D40606;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.rec2_pink {
+    width: 54.427vw;
+    height: 56.250vw;
+    background-color: #DD0A63;
+    top: 0;
+    left: 7.839vw;
+}
+
+.rec3_orange {
+    width: 42.240vw;
+    height: 30.260vw;
+    background-color: #D83806;
+    bottom: 0;
+    left: 17.734vw;
+}
+
+.rec4_orange {
+    width: 29.375vw;
+    height: 18.385vw;
+    background-color: #D83806;
+    bottom: 0;
+    right: 4.661vw;
+    z-index: 1;
+}
+
+.rec5_pink {
+    width: 436px;
+    height: 518px;
+    background-color: #DD0A63;
+    top: 0;
+    right: 0;
+}
+
+.circle1_yellow {
+    width: 33.438vw;
+    height: 33.438vw;
+    background-color: #DCB015;
+    border-radius: 50%;
+    top: 8.871vw;
+    left: -8.307vw;
+}
+
+.circle2_yellow {
+    width: 52.083vw;
+    height: 52.083vw;
+    background-color: #DCB015;
+    border-radius: 50%;
+    top: -2.708vw;
+    left: 31.615vw;
+}
+
+.circle3_yellow {
+    width: 60.781vw;
+    height: 60.781vw;
+    background-color: #DCB015;
+    border-radius: 50%;
+    top: 21.292vw;
+    right: -9.531vw;
+}
+
+.circle4_blue {
+    width: 21.042vw;
+    height: 21.042vw;
+    background-color: #1729CE;
+    border-radius: 50%;
+    bottom: -18.579vw;
+    left: -3.315vw;
+    z-index: 1;
+}
+
+.circle5_blue {
+    width: 29.531vw;
+    height: 29.531vw;
+    background-color: #1729CE;
+    border-radius: 50%;
+    top: -16.342vw;
+    right: -0.457vw;
+}
+
+.rhomb1_blue {
+    width: 29.213vw;
+    height: 12.194vw;
+    background: url("../images/rhomb1_blue.svg");
+    z-index: 1;
+}
+
+.rhomb2_violet {
+    width: 27.743vw;
+    height: 100vw;
+    background: url("../images/rhomb2_violet.svg");
+    bottom: -68.377vw;
+}
+
+.rhomb3_yellow {
+    width: 27.416vw;
+    height: 13.781vw;
+    background: url("../images/rhomb3_yellow.svg");
+    bottom: 0;
+    left: 10.104vw;
+    z-index: 2;
+}
+
+.rhomb4_violet {
+    width: 65.130vw;
+    height: 50.267vw;
+    background: url("../images/rhomb4_violet.svg");
+    bottom: 0;
+    right: 13.243vw;
+}
+
+.rhomb5_orange {
+    width: 55.497vw;
+    height: 32.616vw;
+    background: url("../images/rhomb5_orange.svg");
+    top: 0;
+    right: 14.375vw;
+}
+
+.rhomb6_red {
+    width: 23.660vw;
+    height: 47.973vw;
+    background: url("../images/rhomb6_red.svg");
+    top: 0;
+    right: 0;
+    z-index: 1;
+}

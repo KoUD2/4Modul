@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'Halvar-Medium';
+	src: url('../fonts/HalvarBreit-Md.woff2') format('woff2'),
+		   url('../fonts/HalvarBreit-Md.woff') format('woff');
+  font-weight: 900;
+}
