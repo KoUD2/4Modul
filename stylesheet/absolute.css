@@ -1,0 +1,62 @@
+/* body {
+    background-color: #161616;
+} */
+
+body {
+    background-color: #161616;
+}
+
+a {
+    font-family: Halvar-Medium;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Halvar-Medium;
+    color: white;
+    font-size: 64px;
+}
+
+button {
+    font-family: Halvar-Medium;
+    cursor: pointer;
+    border: none;
+}
+
+p {
+    font-family: Halvar-Medium;
+    font-size: 1.771vw;
+    color: white;
+}
+
+.head {
+    position: relative;
+    z-index: 2;
+    width: 98vw;
+    height: 4.219vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 1.198vw;
+    width: 2.760vw;
+    height: 2.500vw;
+    background: url("../images/logo.svg");
+    background-size: cover;
+}
+
+.a {
+    margin-left: 15.365vw;
+    width: 65.290vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a > a {
+    font-family: Halvar-Medium;
+    color: #CCB21C;
+    font-size: 2.109vw;
+    text-decoration: none;
+}

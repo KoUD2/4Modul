@@ -1,5 +1,11 @@
+body {
+    overflow: hidden;
+}
+
 .move {
     position: relative;
+    overflow: hidden;
+    height: 100vw;
 }
 
 .round_form1 {
@@ -40,6 +46,7 @@
     height: 339.75px;
     transform: rotate(18deg);
     background: url("../images/tri_game_1.svg");
+    background-size: cover;
 }
 
 .tri_game_2 {
@@ -50,6 +57,7 @@
     height: 372.62px;
     transform: rotate(-29.35deg);
     background: url("../images/tri_game_2.svg");
+    background-size: cover;
 }
 
 .tri_game_3 {
@@ -60,6 +68,7 @@
     height: 271.13px;
     transform: rotate(45.2deg);
     background: url("../images/tri_game_3.svg");
+    background-size: cover;
 }
 
 .club_game_1 {
@@ -70,16 +79,29 @@
     height: 502.71px;
     transform: rotate(162.97deg);
     background: url("../images/club_game_1.svg");
+    background-size: cover;
+    transition: hover 0.5s;
 }
 
-.spade_game_1 {
-    position: absolute;
+.sdvs {
     top: 594.31px;
     left: -111.04px;
+}
+
+#spade_game_1 {
+    position: absolute;
+    /* top: 594.31px;
+    left: -111.04px; */
     width: 606.51px;
     height: 662.98px;
     transform: rotate(-103.05deg);
     background: url("../images/spade_game_1.svg");
+    background-size: cover;
+}
+
+#spade_game_1:hover {
+    background: url("../images/club_game_1_img.svg");
+    background-size: cover;
 }
 
 .club_game_2 {
@@ -90,6 +112,7 @@
     height: 502.71px;
     transform: rotate(-144.84deg);
     background: url("../images/club_game_2.svg");
+    background-size: cover;
 }
 
 .heart_game_1 {
@@ -100,16 +123,18 @@
     height: 444.73px;
     transform: rotate(-75.39deg);
     background: url("../images/heart_game_1.svg");
+    background-size: cover;
 }
 
 .spade_game_2 {
     position: absolute;
     top: 550.84px;
-    right: -227.38px;
+    right: -351.38px;
     width: 369.31px;
     height: 403.7px;
     transform: rotate(1.33deg);
     background: url("../images/spade_game_2.svg");
+    background-size: cover;
 }
 
 .diamond_game_1 {
@@ -120,14 +145,16 @@
     height: 771.06px;
     transform: rotate(-22.14deg);
     background: url("../images/diamond_game_1.svg");
+    background-size: cover;
 }
 
 .diamond_game_2 {
     position: absolute;
     top: -59px;
-    right: -196.29px;
+    right: -224.29px;
     width: 550.47px;
     height: 771.06px;
     transform: rotate(33.44deg);
     background: url("../images/diamond_game_2.svg");
+    background-size: cover;
 }

@@ -1,13 +1,33 @@
+body {
+    overflow: hidden;
+}
+
 .back_posters {
+    width: 100%;
     display: flex;
     position: absolute;
+    z-index: 1;
 }
+
+.column1 {
+    animation: movement 60s linear infinite;
+}
+.column2 {
+    animation: movement 58s linear infinite;
+}
+.column3 {
+    animation: movement 62s linear infinite;
+}
+.column4 {
+    animation: movement 59s linear infinite;
+}
+
 
 .column1,
 .column2,
 .column3,
 .column4 {
-    width: 480px;
+    width: 25vw;
     display: flex;
     flex-direction: column;
 }
@@ -16,526 +36,153 @@
 .column2 > div,
 .column3 > div,
 .column4 > div {
-    height: 720.37px;
+    height: 37.500vw;
+    background-size: cover;
 }
 
-.poster1_1 {
+.poster1_1, .poster2_15, .poster3_2, .poster4_27 {
     background: url("../images/posters/1.svg");
 }
 
-.poster1_2 {
+.poster1_2, .poster2_5, .poster3_3, .poster4_28 {
     background: url("../images/posters/17.svg");
 }
 
-.poster1_3 {
+.poster1_3, .poster2_24, .poster3_12, .poster4_25 {
     background: url("../images/posters/30.svg");
 }
 
-.poster1_4 {
+.poster1_4, .poster2_29, .poster3_25, .poster4_29 {
     background: url("../images/posters/31.svg");
 }
 
-.poster1_5 {
+.poster1_5, .poster2_9, .poster3_19, .poster4_5 {
     background: url("../images/posters/10.svg");
 }
 
-.poster1_6 {
+.poster1_6, .poster2_22, .poster3_27, .poster4_15 {
     background: url("../images/posters/9.svg");
 }
 
-.poster1_7 {
+.poster1_7, .poster2_16, .poster3_30, .poster4_11 {
     background: url("../images/posters/23.svg");
 }
 
-.poster1_8 {
+.poster1_8, .poster2_11, .poster3_13, .poster4_22 {
     background: url("../images/posters/13.svg");
 }
 
-.poster1_9 {
+.poster1_9, .poster2_8, .poster3_31, .poster4_24 {
     background: url("../images/posters/16.svg");
 }
 
-.poster1_10 {
+.poster1_10, .poster2_19, .poster3_21, .poster4_31 {
     background: url("../images/posters/4.svg");
 }
 
-.poster1_11 {
+.poster1_11, .poster2_32, .poster3_4, .poster4_3 {
     background: url("../images/posters/19.svg");
 }
 
-.poster1_12 {
+.poster1_12, .poster2_13, .poster3_9, .poster4_12 {
     background: url("../images/posters/8.svg");
 }
 
-.poster1_13 {
+.poster1_13, .poster2_10, .poster3_23, .poster4_18 {
     background: url("../images/posters/25.svg");
 }
 
-.poster1_14 {
+.poster1_14, .poster2_7, .poster3_8, .poster4_16 {
     background: url("../images/posters/27.svg");
 }
 
-.poster1_15 {
+.poster1_15, .poster2_18, .poster3_24, .poster4_10 {
     background: url("../images/posters/7.svg");
 }
 
-.poster1_16 {
+.poster1_16, .poster2_23, .poster3_22, .poster4_19 {
     background: url("../images/posters/15.svg");
 }
 
-.poster1_17 {
+.poster1_17, .poster2_28, .poster3_1, .poster4_8 {
     background: url("../images/posters/20.svg");
 }
 
-.poster1_18 {
+.poster1_18, .poster2_31, .poster3_29, .poster4_14 {
     background: url("../images/posters/14.svg");
 }
 
-.poster1_19 {
+.poster1_19, .poster2_26, .poster3_20, .poster4_6 {
     background: url("../images/posters/21.svg");
 }
 
-.poster1_20 {
+.poster1_20, .poster2_4, .poster3_26, .poster4_7 {
     background: url("../images/posters/22.svg");
 }
 
-.poster1_21 {
+.poster1_21, .poster2_20, .poster3_28, .poster4_2 {
     background: url("../images/posters/3.svg");
 }
 
-.poster1_22 {
+.poster1_22, .poster2_14, .poster3_15, .poster4_26 {
     background: url("../images/posters/32.svg");
 }
 
-.poster1_23 {
+.poster1_23, .poster2_17, .poster3_6, .poster4_1 {
     background: url("../images/posters/12.svg");
 }
 
-.poster1_24 {
+.poster1_24, .poster2_12, .poster3_11, .poster4_20 {
     background: url("../images/posters/26.svg");
 }
 
-.poster1_25 {
+.poster1_25, .poster2_6, .poster3_7, .poster4_32 {
     background: url("../images/posters/5.svg");
 }
 
-.poster1_26 {
+.poster1_26, .poster2_3, .poster3_18, .poster4_23 {
     background: url("../images/posters/2.svg");
 }
 
-.poster1_27 {
+.poster1_27, .poster2_21, .poster3_10, .poster4_13 {
     background: url("../images/posters/29.svg");
 }
 
-.poster1_28 {
+.poster1_28, .poster2_25, .poster3_17, .poster4_21 {
     background: url("../images/posters/11.svg");
 }
 
-.poster1_29 {
+.poster1_29, .poster2_30, .poster3_5, .poster4_9 {
     background: url("../images/posters/28.svg");
 }
 
-.poster1_30 {
+.poster1_30, .poster2_1, .poster3_16, .poster4_30 {
     background: url("../images/posters/24.svg");
 }
 
-.poster1_31 {
+.poster1_31, .poster2_2, .poster3_14, .poster4_17 {
     background: url("../images/posters/6.svg");
 }
 
-.poster1_32 {
+.poster1_32, .poster2_27, .poster3_32, .poster4_4 {
     background: url("../images/posters/18.svg");
-}
-
-.poster2_1 {
-    background: url("../images/posters/24.svg");
-}
-
-.poster2_2 {
-    background: url("../images/posters/6.svg");
-}
-
-.poster2_3 {
-    background: url("../images/posters/2.svg");
-}
-
-.poster2_4 {
-    background: url("../images/posters/22.svg");
-}
-
-.poster2_5 {
-    background: url("../images/posters/17.svg");
-}
-
-.poster2_6 {
-    background: url("../images/posters/5.svg");
-}
-
-.poster2_7 {
-    background: url("../images/posters/27.svg");
-}
-
-.poster2_8 {
-    background: url("../images/posters/16.svg");
-}
-
-.poster2_9 {
-    background: url("../images/posters/10.svg");
-}
-
-.poster2_10 {
-    background: url("../images/posters/25.svg");
-}
-
-.poster2_11 {
-    background: url("../images/posters/13.svg");
-}
-
-.poster2_12 {
-    background: url("../images/posters/26.svg");
-}
-
-.poster2_13 {
-    background: url("../images/posters/8.svg");
-}
-
-.poster2_14 {
-    background: url("../images/posters/32.svg");
-}
-
-.poster2_15 {
-    background: url("../images/posters/1.svg");
-}
-
-.poster2_16 {
-    background: url("../images/posters/23.svg");
-}
-
-.poster2_17 {
-    background: url("../images/posters/12.svg");
-}
-
-.poster2_18 {
-    background: url("../images/posters/7.svg");
-}
-
-.poster2_19 {
-    background: url("../images/posters/4.svg");
-}
-
-.poster2_20 {
-    background: url("../images/posters/3.svg");
-}
-
-.poster2_21 {
-    background: url("../images/posters/29.svg");
-}
-
-.poster2_22 {
-    background: url("../images/posters/9.svg");
-}
-
-.poster2_23 {
-    background: url("../images/posters/15.svg");
-}
-
-.poster2_24 {
-    background: url("../images/posters/30.svg");
-}
-
-.poster2_25 {
-    background: url("../images/posters/11.svg");
-}
-
-.poster2_26 {
-    background: url("../images/posters/21.svg");
-}
-
-.poster2_27 {
-    background: url("../images/posters/18.svg");
-}
-
-.poster2_28 {
-    background: url("../images/posters/20.svg");
-}
-
-.poster2_29 {
-    background: url("../images/posters/31.svg");
-}
-
-.poster2_30 {
-    background: url("../images/posters/28.svg");
-}
-
-.poster2_31 {
-    background: url("../images/posters/14.svg");
-}
-
-.poster2_32 {
-    background: url("../images/posters/19.svg");
-}
-
-.poster3_1 {
-    background: url("../images/posters/20.svg");
-}
-
-.poster3_2 {
-    background: url("../images/posters/1.svg");
-}
-
-.poster3_3 {
-    background: url("../images/posters/17.svg");
-}
-
-.poster3_4 {
-    background: url("../images/posters/19.svg");
-}
-
-.poster3_5 {
-    background: url("../images/posters/28.svg");
-}
-
-.poster3_6 {
-    background: url("../images/posters/12.svg");
-}
-
-.poster3_7 {
-    background: url("../images/posters/5.svg");
-}
-
-.poster3_8 {
-    background: url("../images/posters/27.svg");
-}
-
-.poster3_9 {
-    background: url("../images/posters/8.svg");
-}
-
-.poster3_10 {
-    background: url("../images/posters/29.svg");
-}
-
-.poster3_11 {
-    background: url("../images/posters/26.svg");
-}
-
-.poster3_12 {
-    background: url("../images/posters/30.svg");
-}
-
-.poster3_13 {
-    background: url("../images/posters/13.svg");
-}
-
-.poster3_14 {
-    background: url("../images/posters/6.svg");
-}
-
-.poster3_15 {
-    background: url("../images/posters/32.svg");
-}
-
-.poster3_16 {
-    background: url("../images/posters/24.svg");
-}
-
-.poster3_17 {
-    background: url("../images/posters/11.svg");
-}
-
-.poster3_18 {
-    background: url("../images/posters/2.svg");
-}
-
-.poster3_19 {
-    background: url("../images/posters/10.svg");
-}
-
-.poster3_20 {
-    background: url("../images/posters/21.svg");
-}
-
-.poster3_21 {
-    background: url("../images/posters/4.svg");
-}
-
-.poster3_22 {
-    background: url("../images/posters/15.svg");
-}
-
-.poster3_23 {
-    background: url("../images/posters/25.svg");
-}
-
-.poster3_24 {
-    background: url("../images/posters/7.svg");
-}
-
-.poster3_25 {
-    background: url("../images/posters/31.svg");
-}
-
-.poster3_26 {
-    background: url("../images/posters/22.svg");
-}
-
-.poster3_27 {
-    background: url("../images/posters/9.svg");
-}
-
-.poster3_28 {
-    background: url("../images/posters/3.svg");
-}
-
-.poster3_29 {
-    background: url("../images/posters/14.svg");
-}
-
-.poster3_30 {
-    background: url("../images/posters/23.svg");
-}
-
-.poster3_31 {
-    background: url("../images/posters/16.svg");
-}
-
-.poster3_32 {
-    background: url("../images/posters/18.svg");
-}
-
-.poster4_1 {
-    background: url("../images/posters/12.svg");
-}
-
-.poster4_2 {
-    background: url("../images/posters/3.svg");
-}
-
-.poster4_3 {
-    background: url("../images/posters/19.svg");
-}
-
-.poster4_4 {
-    background: url("../images/posters/18.svg");
-}
-
-.poster4_5 {
-    background: url("../images/posters/10.svg");
-}
-
-.poster4_6 {
-    background: url("../images/posters/21.svg");
-}
-
-.poster4_7 {
-    background: url("../images/posters/22.svg");
-}
-
-.poster4_8 {
-    background: url("../images/posters/20.svg");
-}
-
-.poster4_9 {
-    background: url("../images/posters/28.svg");
-}
-
-.poster4_10 {
-    background: url("../images/posters/7.svg");
-}
-
-.poster4_11 {
-    background: url("../images/posters/23.svg");
-}
-
-.poster4_12 {
-    background: url("../images/posters/8.svg");
-}
-
-.poster4_13 {
-    background: url("../images/posters/29.svg");
-}
-
-.poster4_14 {
-    background: url("../images/posters/14.svg");
-}
-
-.poster4_15 {
-    background: url("../images/posters/9.svg");
-}
-
-.poster4_16 {
-    background: url("../images/posters/27.svg");
-}
-
-.poster4_17 {
-    background: url("../images/posters/6.svg");
-}
-
-.poster4_18 {
-    background: url("../images/posters/25.svg");
-}
-
-.poster4_19 {
-    background: url("../images/posters/15.svg");
-}
-
-.poster4_20 {
-    background: url("../images/posters/26.svg");
-}
-
-.poster4_21 {
-    background: url("../images/posters/11.svg");
-}
-
-.poster4_22 {
-    background: url("../images/posters/13.svg");
-}
-
-.poster4_23 {
-    background: url("../images/posters/2.svg");
-}
-
-.poster4_24 {
-    background: url("../images/posters/16.svg");
-}
-
-.poster4_25 {
-    background: url("../images/posters/30.svg");
-}
-
-.poster4_26 {
-    background: url("../images/posters/32.svg");
-}
-
-.poster4_27 {
-    background: url("../images/posters/1.svg");
-}
-
-.poster4_28 {
-    background: url("../images/posters/17.svg");
-}
-
-.poster4_29 {
-    background: url("../images/posters/31.svg");
-}
-
-.poster4_30 {
-    background: url("../images/posters/24.svg");
-}
-
-.poster4_31 {
-    background: url("../images/posters/4.svg");
-}
-
-.poster4_32 {
-    background: url("../images/posters/5.svg");
 }
 
 .overlay_posters {
     position: absolute;
-    /* width: 5401px;
-    height: 3070px; */
-    width: 1920px;
-    height: 1080px;
+    top: 0;
+    left: 0;
+    cursor: move;
+    width: 281.302vw;
+    height: 159.896vw;
+    z-index: 2;
+    /* display: none; */
+    /* width: 1920px;
+    height: 1080px; */
     background: url("../images/overlay1.svg");
+}
+
+@keyframes movement {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(calc(-100% + 100vh));}
 }

@@ -1,0 +1,204 @@
+body {
+    overflow: hidden;
+}
+
+.about {
+    margin-top: 98px;
+    margin-left: 447px;
+}
+
+.about > p {
+    margin-top: 14px;
+}
+
+.home {
+    width: 347px;
+    height: 999px;
+    position: absolute;
+    top: 4.219vw;
+    background: url('../images/home.svg');
+}
+
+.home > p {
+    transform: rotate(-90deg);
+    font-size: 64px;
+    inline-size: max-content;
+    margin-top: 382px;
+    margin-left: -268px;
+}
+
+.more {
+    position: absolute;
+    width: 100%;
+    height: 347px;
+    bottom: 0;
+    background: url('../images/more.svg');
+    display: flex;
+    justify-content: center;
+}
+
+.more > p {
+    font-size: 64px;
+    margin-top: 200px;
+}
+
+.games {
+    position: absolute;
+    width: 347px;
+    height: 999px;
+    right: 0px;
+    background: url('../images/game_about.svg');
+    background-size: cover;
+    top: 4.219vw;
+}
+
+.games > p {
+    transform: rotate(-90deg);
+    font-size: 64px;
+    inline-size: max-content;
+    margin-top: 469px;
+    margin-left: -72px;
+}
+
+.slider {
+    top: 100vh;
+    position: absolute;
+    width: 100vw;
+    height: 584.64px;
+    overflow: hidden;
+    display: none;
+}
+
+.images {
+    white-space: nowrap;
+    height: 584.64px;
+    overflow: hidden;
+    display: flex;
+    /* width: 3000px; */
+}
+
+.free {
+    position: absolute;
+    top: 4.219vw;
+    right: 0;
+    display: none;
+    width: 0;
+    height: 999px;
+    background-color: #D83806;
+}
+
+.purple {
+    position: absolute;
+    top: 4.219vw;
+    left: 0;
+    display: none;
+    width: 0;
+    height: 999px;
+    background-color: #E8038D;
+}
+
+.text1 {
+    margin-top: 98px;
+    margin-left: 86px;
+    display: none;
+}
+
+.text1 > p {
+    line-height: 52px;
+    margin-top: 14px;
+}
+
+.spade_about {
+    opacity: 0;
+    position: absolute;
+    top: -17px;
+    left: -41px;
+    width: 451.6px;
+    height: 458.68px;
+    background: url('../images/spade_about.svg');
+    background-size: cover;
+}
+
+.round_about {
+    opacity: 0;
+    position: absolute;
+    top: 91px;
+    left: 505px;
+    width: 408.49px;
+    height: 408.49px;
+    border-radius: 50%;
+    background-color: #1729CE;
+}
+
+.dimond_about {
+    opacity: 0;
+    position: absolute;
+    top: 482px;
+    left: 66.5px;
+    width: 443.96px;
+    height: 408.05px;
+    background: url('../images/dimond_about.svg');
+    background-size: cover;
+}
+
+.heart_about {
+    opacity: 0;
+    position: absolute;
+    top: 536.5px;
+    left: 523.6px;
+    width: 406.6px;
+    height: 451.54px;
+    background: url('../images/heart_about.svg');
+    background-size: cover;
+}
+
+@keyframes opacity {
+    0% {opacity: 100%;}
+    100% {opacity: 0;}
+}
+
+
+@keyframes opacity1 {
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+
+@keyframes right {
+    0% {right: 0;}
+    100% {right: 704px;}
+}
+
+@keyframes right_inv {
+    0% {right: 704px;}
+    100% {right: 0;}
+}
+
+@keyframes left {
+    0% {left: 0;}
+    100% {left: 968px;}
+}
+
+@keyframes left_inv {
+    0% {left: 968px;}
+    100% {left: 0;}
+}
+
+@keyframes orange_back {
+    0% {width: 0;}
+    100% {width: 705px;}
+}
+
+@keyframes orange_back_inv {
+    0% {width: 705px;}
+    100% {width: 0;}
+}
+
+@keyframes purple_back {
+    0% {width: 0;}
+    100% {width: 969px;}
+}
+
+@keyframes purple_back_inv {
+    0% {width: 969px;}
+    100% {width: 0;}
+}

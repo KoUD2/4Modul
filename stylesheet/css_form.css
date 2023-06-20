@@ -1,13 +1,3 @@
-body {
-    background-color: #161616;
-}
-
-p {
-    font-family: Halvar-Medium;
-    font-size: 1.771vw;
-    color: white;
-}
-
 .form {
     position: relative;
     margin: 0 auto;
@@ -53,7 +43,8 @@ p {
 }
 
 .heart {
-    background: url("../images/heart_form.svg");
+    background: url("../images/hert_form.svg");
+    background-size: cover;
     width: 32.493vw;
     height: 28.165vw;
     right: 0;
@@ -62,6 +53,7 @@ p {
 
 .rhomb {
     background: url("../images/rhomb_form.svg");
+    background-size: cover;
     width: 42.692vw;
     height: 43.940vw;
     left: -5.990vw;
@@ -70,6 +62,7 @@ p {
 
 .tr {
     background: url("../images/tri_form.svg");
+    background-size: cover;
     width: 19.427vw;
     height: 19.022vw;
     left: 7.100vw;
@@ -81,6 +74,10 @@ p {
     top: 4.983vw;
     width: 44.305vw;
     height: 37.881vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .orange_block{
@@ -114,8 +111,6 @@ p {
     font-family: Halvar-Medium;
     font-size: 1.771vw;
     color: #FFC7B6;
-    border: none;
-    margin-left: auto;
 }
 
 .button:hover {
@@ -187,32 +182,4 @@ p {
 
 .rec_pink1_f {
     background-color: #E80356;
-}
-
-.head {
-    width: 100vw;
-    height: 80.98px;
-    display: flex;
-    align-items: center;
-}
-
-.a {
-    margin-left: 15.365vw;
-    width: 65.290vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.a > a {
-    font-family: Halvar-Medium;
-    color: #CCB21C;
-    font-size: 2.109vw;
-    text-decoration: none;
-}
-
-.logo {
-    margin-left: 1.198vw;
-    width: 2.760vw;
-    height: 2.500vw;
-    background: url("../images/logo.svg");
 }

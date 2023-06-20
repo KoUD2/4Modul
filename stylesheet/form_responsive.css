@@ -1,0 +1,59 @@
+@media all and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    
+    .form {
+        width: 200%;
+        /* height: 133.333vw; */
+    }
+
+    /* .rec_violet {
+        width: 35.801vw;
+        height: 29.388vw;
+        left: -6.723vw;
+        top: 20.776vw;
+    }
+
+    .rec_pink {
+        width: 51.306vw;
+        height: 51.712vw;
+        left: 25.426vw;
+        top: 16.555vw;
+    }
+
+    .rec_orange {
+        width: 59.181vw;
+        height: 35.07vw;
+        left: 22.422vw;
+        top: 57.796vw;
+    }
+
+    .round_blue {
+        width: 50.656vw;
+        height: 50.656vw;
+        left: 68.857vw;
+        top: 48.216vw;
+    }
+
+    .heart {
+        width: 51.113vw;
+        height: 45.69vw;
+        left: 58.465vw;
+        top: 10.385vw;
+    }
+
+    .tr {
+        width: 45.408vw;
+        height: 44.408vw;
+        left: -19.376vw;
+        top: 60.13vw;
+    }
+
+    .rhomb {
+        width: 42.692vw;
+        height: 43.940vw;
+        left: -5.990vw;
+        top: 4.7vw;
+    } */
+}
