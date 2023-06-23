@@ -1,0 +1,29 @@
+@media all and (min-width: 415px) and (max-width: 768px) {
+    .column3, .column4 {
+        display: none;
+    }
+    .column1, .column2 {
+        width: 50%;
+    }
+    .column1 > div, .column2 > div {
+        height: 75.039vw;
+    }
+    .over {
+        display: none;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .column2, .column3, .column4 {
+        display: none;
+    }
+    .column1 {
+        width: 100%;
+    }
+    .column1 > div {
+        height: 150.077vw;
+    }
+    .over {
+        display: none;
+    }
+}

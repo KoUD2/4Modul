@@ -61,6 +61,10 @@ p {
     display: none;
 }
 
+.mobile {
+    display: none;
+}
+
 @media all and (max-width: 768px) {
     .head {
         height: 6.853vw;
@@ -80,7 +84,7 @@ p {
 
     .bur {
         position: absolute;
-        right: 0;
+        right: 2vw;
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -93,4 +97,31 @@ p {
         height: 0.678vw;
         background-color: #CCB21C;
     }
+
+    .mobile {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        transform: translateY(-50.429vw);
+    }
+
+    .but1, .but2, .but3, .but4, .but5 {
+        width: 100%;
+        height: 10vw;
+        background: #161616;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .but1 > a, .but2 > a, .but3 > a, .but4 > a, .but5 > a {
+        text-decoration: none;
+        font-size: 4vw;
+        color: #CCB21C; 
+    }
+
 }
