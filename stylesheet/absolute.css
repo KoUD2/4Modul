@@ -28,11 +28,12 @@ p {
 
 .head {
     position: relative;
-    z-index: 2;
+    z-index: 9;
     width: 98vw;
     height: 4.219vw;
     display: flex;
     align-items: center;
+    background-color: #161616;
 }
 
 .logo {
