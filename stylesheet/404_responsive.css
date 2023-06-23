@@ -1,0 +1,80 @@
+@media all and (min-width: 415px) and (max-width: 768px) {
+    p {
+        font-size: 2.371vw;
+    }
+    
+    .return {
+        top: 73.07300000000001vw;
+        right: 2.6880000000000024vw;
+        width: 45.552vw;
+        height: 10.705vw;
+    }
+    
+    .back {
+        background: url(../images/404_adop1.svg);
+        background-size: cover;
+        position: absolute;
+        width: 165.927vw;
+        height: 174.099vw;
+        top: -29.2816vw;
+        right: -51.844vw;
+    }
+}
+
+@media all and (min-width: 361px) and (max-width: 414px) {
+    p {
+        font-size: 3.371vw;
+    }
+
+    button {
+        width: 16.247vw;
+        height: 4.492vw;
+        font-size: 1.771vw;
+    }
+    
+    .return {
+        top: 138.073vw;
+        right: 15.688vw;
+        width: 64.552vw;
+        height: 13.705vw;
+    }
+    
+    .back {
+        background: url(../images/404_adop2.svg);
+        background-size: cover;
+        position: absolute;
+        width: 228.348vw;
+        height: 268.541vw;
+        top: -28.2816vw;
+        right: -97.844vw;
+    }
+}
+
+@media all and (max-width: 360px) {
+    p {
+        font-size: 3.371vw;
+    }
+
+    button {
+        width: 16.247vw;
+        height: 4.492vw;
+        font-size: 1.771vw;
+    }
+    
+    .return {
+        top: 118.073vw;
+        right: 2.688vw;
+        width: 64.552vw;
+        height: 13.705vw;
+    }
+    
+    .back {
+        background: url(../images/404_adop3.svg);
+        background-size: cover;
+        position: absolute;
+        width: 186.278vw;
+        height: 241.278vw;
+        top: -22.2816vw;
+        right: -73.844vw;
+    }
+}

@@ -1,11 +1,19 @@
 body {
     background: #161616;
     overflow: hidden;
+    position: relative;
+}
+
+a {
+    font-family: Halvar-Medium;
+    font-size: 1.771vw;
+    color: white;
+    text-decoration: none;
 }
 
 button {
-    width: 254.34px;
-    height: 67.05px;
+    width: 13.247vw;
+    height: 3.492vw;
     color: #FFC7B6;
     font-size: 1.771vw;
     background-color: #D45106;
@@ -20,18 +28,19 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
-    top: 635px;
-    right: 378px;
+    top: 33.073vw;
+    right: 21.688vw;
     position: absolute;
-    width: 625px;
-    height: 167.13px;
+    width: 32.552vw;
+    height: 8.705vw;
 }
 
 .back {
-    background: url('../images/404.svg');
+    background: url(../images/404.svg);
     background-size: cover;
-    width: 143.648vw;
-    height: 113.698vw;
-    margin-top: -23.281vw;
-    margin-left: -14.844vw;
+    position: absolute;
+    width: 126.292vw;
+    height: 91.146vw;
+    top: -19.281vw;
+    right: -9.844vw;
 }

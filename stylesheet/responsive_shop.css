@@ -1,5 +1,301 @@
-@media all and (max-width: 768px) {
+@media all and (min-width: 415px) and (max-width: 768px) {
+    .container {
+        width: 86.5vw;
+        height: 287.134vw;
+        margin-top: 3.958vw;
+    }
+
+    .cont4 {
+        display: block;
+        margin-top: 3.646vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cont5 {
+        display: block;
+        margin-top: 3.646vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .head {
+        width: 97%;
+    }
+
+    .round {
+        width: 41.428vw;
+        height: 41.428vw;
+    }
+
+    .heart_shop2 {
+        width: 38.957vw;
+        height: 41.428vw;
+    }
+
+    .dimond_shop2 {
+        width: 29.616vw;
+        height: 41.428vw;
+    }
+
+    .img7 {
+        width: 20.565vw;
+        height: 23.265vw;
+        margin-top: -6.083vw;
+        margin-left: 4.083vw;
+    }
+
+    .img8 {
+        width: 14.841vw;
+        height: 17.743vw;
+    }
+
+    .img5 {
+        width: 23.816vw;
+        height: 15.94vw;
+        margin-top: 6.125vw;
+        margin-left: -13.292vw;
+    }
+
+
+    .img1 {
+        width: 18.340vw;
+        height: 29.055vw;
+    }
+
+    .text1 {
+        margin-top: 2.454vw;
+    }
+
+    .head_text {
+        font-size: 2.049vw;
+        margin-right: 2.760vw;
+    }
+
+    .dimond {
+        width: 29.61vw;
+        height: 41.439vw;
+    }
+
+    .tri {
+        width: 43.701vw;
+        height: 41.428vw;
+    }
+
+    .club_shop {
+        width: 35.83vw;
+        height: 39.396vw;
+    }
+
+    .heart {
+        width: 39.445vw;
+        height: 41.428vw;
+    }
+
+    .tri2 {
+        width: 39.28vw;
+        height: 41.428vw;
+    }
+
+    .img3 {
+        width: 24.641vw;
+        height: 17.733vw;
+        margin-left: 4.604vw;
+        margin-top: -4.604vw;
+    }
+
+    .img9 {
+        width: 26.322vw;
+        height: 20.281vw;
+        margin-top: 7.354vw;
+    }
+
+    .img6 {
+        width: 33.029vw;
+        height: 30.007vw;
+    }
+
+    .img2 {
+        width: 10.346vw;
+        height: 23.689vw;
+    }
+
+    .img4 {
+        width: 25.913vw;
+        height: 23.634vw;
+        margin-top: 6.688vw;
+        margin-left: 3.333vw;
+    }
+
+    .cost, .cost1, .cost2, .cost3, .cost4, .cost5, .cost6, .cost7, .cost8 {
+        width: 7.716vw;
+        margin-top: 0.517vw;
+        height: 3.467vw;
+    }
+
+    .cost > p, .cost1 > p, .cost2 > p, .cost3 > p, .cost4 > p, .cost5 > p, .cost6 > p, .cost7 > p, .cost8 > p {
+        font-size: 1.387vw;
+    }
+
+    .good10, .good11, .good12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .good3 {
         display: none;
+    }
+    .good6 {
+        display: none;
+    }
+    .good9 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .head {
+        width: 97%;
+    }
+
+    .round {
+        width: 68.005vw;
+        height: 68.005vw;
+    }
+
+    .head_text {
+        font-size: 3.365vw;
+        margin-right: 7.76vw;
+    }
+
+    .dimond {
+        width: 68.005vw;
+        height: 95.439vw;
+    }
+
+    .heart {
+        width: 68.005vw;
+        height: 71.557vw;
+    }
+
+
+    .tri {
+        width: 68.005vw;
+        height: 64.577vw;
+    }
+
+    .club_shop {
+        width: 68.005vw;
+        height: 74.396vw;
+    }
+
+    .heart_shop2 {
+        width: 68.005vw;
+        height: 72.219vw;
+    }
+
+    .dimond_shop2 {
+        width: 68.005vw;
+        height: 95.142vw;
+    }
+
+    .tri2 {
+        width: 68.005vw;
+        height: 71.561vw;
+    }
+
+    .img9 {
+        width: 44.322vw;
+        height: 33.281vw;
+        margin-top: 11.354vw;
+        margin-left: -6.76vw;
+    }
+
+    .img8 {
+        width: 35.841vw;
+        height: 41.743vw;
+    }
+
+    .img7 {
+        width: 33.565vw;
+        height: 42.265vw;
+        margin-top: -8.083vw;
+        margin-left: 5.083vw;
+    }
+
+    .img6 {
+        width: 53.029vw;
+        height: 50.007vw;
+    }
+    
+    .img4 {
+        width: 35.913vw;
+        height: 33.634vw;
+        margin-top: 9.688vw;
+        margin-left: 2.333vw;
+    }
+
+    .img5 {
+        width: 45.816vw;
+        height: 31.94vw;
+        margin-top: 11.125vw;
+        margin-left: -27.292vw;
+    }
+
+    .img3 {
+        width: 42.641vw;
+        height: 30.733vw;
+        margin-left: 7.604vw;
+        margin-top: -8.604vw;
+    }
+
+    .img2 {
+        width: 18.836vw;
+        height: 44.654vw;
+    }
+    
+    .img1 {
+        width: 32.12vw;
+        height: 52.2vw;
+    }
+
+    .cont2, .cont3 {
+        margin-top: 9.662vw;
+    }
+
+    .good2, .good3, .good5, .good6, .good8, .good9{
+        margin-top: 9.662vw; 
+    }
+
+    .cost, .cost1, .cost2, .cost3, .cost4, .cost5, .cost6, .cost7, .cost8 {
+        width: 12.667vw;
+        margin-top: 1.017vw;
+        height: 5.693vw;
+    }
+
+    .cost > p, .cost1 > p, .cost2 > p, .cost3 > p, .cost4 > p, .cost5 > p, .cost6 > p, .cost7 > p, .cost8 > p {
+        font-size: 2.278vw;
+    }
+
+    .container {
+        margin-top: 3.958vw;
+        width: 68.005vw; 
+        height: 985vw;
+    }
+
+    .cont1, .cont2, .cont3 {
+        flex-direction: column;
+    }
+
+    button {
+        width: 32.862vw;
+        height: 8.669vw;
+        font-size: 4.140vw;
+        margin-top: 4.461vw;
+    }
+
+    .text1 {
+        margin-top: 4.831vw;
     }
 }

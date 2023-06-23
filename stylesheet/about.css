@@ -2,35 +2,87 @@ body {
     overflow: hidden;
 }
 
+.head {
+    background-color: #161616;
+}
+
 .about {
-    margin-top: 98px;
-    margin-left: 447px;
+    margin-top: 6.104vw;
+    margin-left: 28.281vw;
 }
 
 .about > p {
-    margin-top: 14px;
+    margin-top: 0.729vw;
+}
+
+.round_about > p, .dimond_about > p, .heart_about > p, .spade_about > p {
+    font-size: 2.109vw;
+}
+
+.spade_about > p {
+    margin-top: -5vw;
+    margin-left: -4vw;
+}
+
+.round_about:hover {
+    background: url('../images/over1_about.png');
+    background-size: cover;
+}
+
+.heart_about:hover {
+    background: url('../images/dop3_main1.png');
+    background-size: cover;
+    width: 57.177vw;
+    height: 59.518vw;
+    margin-top: -16vw;
+    margin-left: -16vw;
+}
+
+.dimond_about:hover {
+    background: url('../images/dop_3.png');
+    background-size: cover;
+    width: 44.123vw;
+    height: 36.253vw;
+    margin-top: -12.3vw;
+    margin-left: -10.5vw;
+}
+
+.round_about:hover > p, .dimond_about:hover > p, .heart_about:hover > p {
+    opacity: 0;
+}
+
+.spade_about:hover {
+    left: -3.535vw;
+    width: 24.621vw;
+    background: url('../images/over2_about.png');
+    background-size: cover;
+}
+
+.spade_about:hover > p {
+    opacity: 0;
 }
 
 .home {
-    width: 347px;
-    height: 999px;
+    width: 23.073vw;
+    height: 52.031vw;
     position: absolute;
     top: 4.219vw;
     background: url('../images/home.svg');
+    background-size: cover;
 }
 
 .home > p {
     transform: rotate(-90deg);
-    font-size: 64px;
+    font-size: 3.333vw;
     inline-size: max-content;
-    margin-top: 382px;
-    margin-left: -268px;
+    margin-top: 19.896vw;
+    margin-left: -13.958vw;
 }
 
 .more {
     position: absolute;
     width: 100%;
-    height: 347px;
+    height: 18.073vw;
     bottom: 0;
     background: url('../images/more.svg');
     display: flex;
@@ -38,15 +90,15 @@ body {
 }
 
 .more > p {
-    font-size: 64px;
-    margin-top: 200px;
+    font-size: 3.333vw;
+    margin-top: 10.417vw;
 }
 
 .games {
     position: absolute;
-    width: 347px;
-    height: 999px;
-    right: 0px;
+    width: 18.073vw;
+    height: 52.031vw;
+    right: 0;
     background: url('../images/game_about.svg');
     background-size: cover;
     top: 4.219vw;
@@ -54,27 +106,26 @@ body {
 
 .games > p {
     transform: rotate(-90deg);
-    font-size: 64px;
+    font-size: 3.333vw;
     inline-size: max-content;
-    margin-top: 469px;
-    margin-left: -72px;
+    margin-top: 24.427vw;
+    margin-left: -3.750vw;
 }
 
 .slider {
     top: 100vh;
     position: absolute;
     width: 100vw;
-    height: 584.64px;
+    height: 30.450vw;
     overflow: hidden;
     display: none;
 }
 
 .images {
     white-space: nowrap;
-    height: 584.64px;
+    height: 30.450vw;
     overflow: hidden;
     display: flex;
-    /* width: 3000px; */
 }
 
 .free {
@@ -83,7 +134,7 @@ body {
     right: 0;
     display: none;
     width: 0;
-    height: 999px;
+    height: 52.031vw;
     background-color: #D83806;
 }
 
@@ -93,63 +144,77 @@ body {
     left: 0;
     display: none;
     width: 0;
-    height: 999px;
+    height: 52.031vw;
     background-color: #E8038D;
 }
 
 .text1 {
-    margin-top: 98px;
-    margin-left: 86px;
+    margin-top: 5.104vw;
+    margin-left: 4.479vw;
     display: none;
 }
 
 .text1 > p {
-    line-height: 52px;
-    margin-top: 14px;
+    line-height: 2.708vw;
+    margin-top: 0.729vw;
 }
 
 .spade_about {
     opacity: 0;
     position: absolute;
-    top: -17px;
-    left: -41px;
-    width: 451.6px;
-    height: 458.68px;
+    top: -0.885vw;
+    left: -2.135vw;
+    width: 23.521vw;
+    height: 23.890vw;
     background: url('../images/spade_about.svg');
     background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .round_about {
     opacity: 0;
     position: absolute;
-    top: 91px;
-    left: 505px;
-    width: 408.49px;
-    height: 408.49px;
+    top: 4.740vw;
+    left: 26.302vw;
+    width: 21.276vw;
+    height: 21.276vw;
     border-radius: 50%;
     background-color: #1729CE;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    transition: .5s;
 }
 
 .dimond_about {
     opacity: 0;
     position: absolute;
-    top: 482px;
-    left: 66.5px;
-    width: 443.96px;
-    height: 408.05px;
+    top: 25.104vw;
+    left: 3.464vw;
+    width: 23.123vw;
+    height: 21.253vw;
     background: url('../images/dimond_about.svg');
     background-size: cover;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
+
 
 .heart_about {
     opacity: 0;
     position: absolute;
-    top: 536.5px;
-    left: 523.6px;
-    width: 406.6px;
-    height: 451.54px;
+    top: 27.943vw;
+    left: 27.271vw;
+    width: 21.177vw;
+    height: 23.518vw;
     background: url('../images/heart_about.svg');
     background-size: cover;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 @keyframes opacity {
@@ -165,40 +230,40 @@ body {
 
 @keyframes right {
     0% {right: 0;}
-    100% {right: 704px;}
+    100% {right: 36.667vw;}
 }
 
 @keyframes right_inv {
-    0% {right: 704px;}
+    0% {right: 36.667vw;}
     100% {right: 0;}
 }
 
 @keyframes left {
     0% {left: 0;}
-    100% {left: 968px;}
+    100% {left: 50.417vw;}
 }
 
 @keyframes left_inv {
-    0% {left: 968px;}
+    0% {left: 50.417vw;}
     100% {left: 0;}
 }
 
 @keyframes orange_back {
     0% {width: 0;}
-    100% {width: 705px;}
+    100% {width: 36.719vw;}
 }
 
 @keyframes orange_back_inv {
-    0% {width: 705px;}
+    0% {width: 36.719vw;}
     100% {width: 0;}
 }
 
 @keyframes purple_back {
     0% {width: 0;}
-    100% {width: 969px;}
+    100% {width: 50.469vw;}
 }
 
 @keyframes purple_back_inv {
-    0% {width: 969px;}
+    0% {width: 50.469vw;}
     100% {width: 0;}
 }

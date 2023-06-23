@@ -17,8 +17,8 @@ $(document).ready(function(){
                     $('.home').css("display","none");
                 }, 1000);
                 flag1 = true;
-                // $('html, body').animate({
-                // scrollTop: $(".slider").offset().top}, 2000);
+                $('html, body').animate({
+                scrollTop: $(".slider").offset().top}, 2000);
             } else {
                 $('.slider').slideUp(500);
                 $('body').css("overflow","");
@@ -77,11 +77,11 @@ $(document).ready(function(){
                 $('.about').css("animation","opacity 1s forwards");
                 $('.purple').css("display","inline-block");
                 $('.purple').css("animation","purple_back 1s forwards");
-                $('#home').css("margin-top","461px");
-                $('.spade_about').css("display","block");
-                $('.round_about').css("display","block");
-                $('.dimond_about').css("display","block");
-                $('.heart_about').css("display","block");
+                $('#home').css("margin-top","24.010vw");
+                $('.spade_about').css("display","flex");
+                $('.round_about').css("display","flex");
+                $('.dimond_about').css("display","flex");
+                $('.heart_about').css("display","flex");
                 setTimeout(function(){
                     $('.spade_about').css("animation","opacity1 1s forwards");
                     $('.round_about').css("animation","opacity1 1s forwards");
@@ -104,9 +104,12 @@ $(document).ready(function(){
                 $('.games').css("animation","opacity1 1s forwards");
                 $('.about').css("animation","opacity1 1s forwards");
                 $('.purple').css("animation","purple_back_inv 1s forwards");
+                setTimeout(function(){
+                    $('.purple').css("display","none");
+                }, 1000);
                 $('.more').css("display","");
                 $('.games').css("display","");
-                $('#home').css("margin-top","382px");
+                $('#home').css("margin-top","19.896vw");
                 flag3 = false;
             }
         });

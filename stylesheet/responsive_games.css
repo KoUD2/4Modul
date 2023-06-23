@@ -1,0 +1,137 @@
+@media all and (min-width: 415px) and (max-width: 768px) {
+    .move {
+        height: 130.101vw;
+    }
+    
+    .round_form1 {
+        width: 36.979vw;
+        height: 36.979vw;
+        top: 27.63vw;
+        left: 45.349vw;
+    }
+
+    .round_form1 > p, .heart_game_1 > p {
+        font-size: 3.191vw;
+    }
+
+    .heart_game_1 > p {
+        font-size: 2.191vw;
+    }
+    
+    .round_form3 {
+        width: 26.792vw;
+        height: 26.792vw;
+        top: 83.182vw;
+        right: 5.938vw;
+    }
+    
+    .spade_game_2 {
+        top: 43.69vw;
+        right: -11.301vw;
+        width: 29.235vw;
+        height: 32.026vw;
+    }
+
+    .diamond_game_1 {
+        top: 63.91vw;
+        right: 38.093vw;
+    }
+
+    .club_game_2 {
+        top: 47.819vw;
+        left: 25.019vw;
+        width: 33.683vw;
+        height: 34.183vw;
+    }
+
+    .sdvs {
+        top: 85.954vw;;
+    }
+
+    .tri_game_2 {
+        top: 24.857vw;
+        left: -9.866vw;
+        width: 47.409vw;
+        height: 29.407vw;
+    }
+
+    .tri_game_3 {
+        top: 2.8470000000000013vw;
+        left: 15.566vw;
+        width: 35.306vw;
+        height: 25.121000000000002vw;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .move {
+        height: 216.107vw;
+    }
+
+    .round_form1 {
+        width: 39.979vw;
+        height: 39.979vw;
+        top: 28.63vw;
+    }
+
+    #spade_game_1 {
+        width: 41.589vw;
+        height: 45.53vw;
+        top: 151.954vw;
+    }
+
+    .club_game_2 {
+        top: 97.819vw;
+        left: 17.019vw;
+        width: 42.683vw;
+        height: 43.183vw;
+    }
+
+    .round_form1 > p, .heart_game_1 > p {
+        font-size: 3.191vw;
+    }
+
+    .spade_game_2 {
+        top: 80.69vw;
+        right: 5.699vw;
+        width: 32.235vw;
+        height: 36.026vw;
+    }
+
+    .diamond_game_1 {
+        top: 46.91vw;
+    }
+
+    .round_form3 {
+        width: 28.792vw;
+        height: 28.792vw;
+        top: 50.182vw;
+        right: 10.938vw;
+    }
+
+    .heart_game_1 {
+        top: 138.492vw;
+        right: 11.911vw;
+        width: 38.967vw;
+        height: 41.163vw;
+    }
+
+    .tri_game_1 {
+        top: 38.813vw;
+        left: -2.549vw;
+        width: 31.776vw;
+        height: 30.695vw;
+    }
+
+    .heart_game_1 > p {
+        margin-top: -1vw;
+        margin-left: -11vw;
+    }
+
+    .tri_game_3 {
+        top: 74.847vw;
+        left: -0.434vw;
+        width: 44.306vw;
+        height: 30.121vw;
+    }
+}

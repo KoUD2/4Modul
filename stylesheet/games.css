@@ -10,40 +10,62 @@ body {
 
 .round_form1 {
     position: absolute;
-    width: 518px;
-    height: 518px;
+    width: 26.979vw;
+    height: 26.979vw;
     background-color: #1729CE;
     border-radius: 50%;
-    top: 338.5px;
-    left: 621.11px;
+    top: 17.630vw;
+    left: 32.349vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.round_form1 > p, .heart_game_1 > p {
+    font-size: 2.191vw;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.round_form1:hover > p, .heart_game_1:hover > p {
+    opacity: 100%;
+}
+
+
+.heart_game_1 > p {
+    transform: rotate(75.39deg);
+    margin-top: -2vw;
+    margin-left: -5vw;
 }
 
 .round_form2 {
     position: absolute;
-    width: 397px;
-    height: 397px;
+    width: 20.677vw;
+    height: 20.677vw;
     background-color: #DF9300;
     border-radius: 50%;
-    top: 43.73px;
-    right: 153.86px;
+    top: 2.278vw;
+    right: 8.014vw;
 }
 
 .round_form3 {
     position: absolute;
-    width: 380px;
-    height: 380px;
+    width: 19.792vw;
+    height: 19.792vw;
     background-color: #E8038D;
     border-radius: 50%;
-    top: 752.3px;
-    right: 363.6px;
+    top: 39.182vw;
+    right: 18.938vw;
 }
 
 .tri_game_1 {
     position: absolute;
-    top: 54px;
-    left: -48.95px;
-    width: 322.1px;
-    height: 339.75px;
+    top: 2.813vw;
+    left: -2.549vw;
+    width: 16.776vw;
+    height: 17.695vw;
     transform: rotate(18deg);
     background: url("../images/tri_game_1.svg");
     background-size: cover;
@@ -51,10 +73,10 @@ body {
 
 .tri_game_2 {
     position: absolute;
-    top: 246.85px;
-    left: -151.03px;
-    width: 430.26px;
-    height: 372.62px;
+    top: 12.857vw;
+    left: -7.866vw;
+    width: 22.409vw;
+    height: 19.407vw;
     transform: rotate(-29.35deg);
     background: url("../images/tri_game_2.svg");
     background-size: cover;
@@ -62,10 +84,10 @@ body {
 
 .tri_game_3 {
     position: absolute;
-    top: 93.07px;
-    left: 298.87px;
-    width: 313.07px;
-    height: 271.13px;
+    top: 4.847vw;
+    left: 15.566vw;
+    width: 16.306vw;
+    height: 14.121vw;
     transform: rotate(45.2deg);
     background: url("../images/tri_game_3.svg");
     background-size: cover;
@@ -73,10 +95,10 @@ body {
 
 .club_game_1 {
     position: absolute;
-    top: 61.2px;
-    left: 499.29px;
-    width: 493.11px;
-    height: 502.71px;
+    top: 3.188vw;
+    left: 26.005vw;
+    width: 25.683vw;
+    height: 26.183vw;
     transform: rotate(162.97deg);
     background: url("../images/club_game_1.svg");
     background-size: cover;
@@ -84,19 +106,29 @@ body {
 }
 
 .sdvs {
-    top: 594.31px;
-    left: -111.04px;
+    top: 30.954vw;
+    left: -5.783vw;
 }
 
 #spade_game_1 {
     position: absolute;
-    /* top: 594.31px;
-    left: -111.04px; */
-    width: 606.51px;
-    height: 662.98px;
+    width: 31.589vw;
+    height: 34.530vw;
     transform: rotate(-103.05deg);
     background: url("../images/spade_game_1.svg");
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#spade_game_1 > a {
+    margin-top: 7vw;
+    margin-left: -8vw;
+    font-size: 5vw;
+    opacity: 0;
+    transform: rotate(103.05deg);
 }
 
 #spade_game_1:hover {
@@ -106,10 +138,10 @@ body {
 
 .club_game_2 {
     position: absolute;
-    top: 726.13px;
-    left: 480.36px;
-    width: 493.11px;
-    height: 502.71px;
+    top: 37.819vw;
+    left: 25.019vw;
+    width: 25.683vw;
+    height: 26.183vw;
     transform: rotate(-144.84deg);
     background: url("../images/club_game_2.svg");
     background-size: cover;
@@ -117,21 +149,25 @@ body {
 
 .heart_game_1 {
     position: absolute;
-    top: 278.24px;
-    right: 363.09px;
-    width: 421.77px;
-    height: 444.73px;
+    top: 14.492vw;
+    right: 18.911vw;
+    width: 21.967vw;
+    height: 23.163vw;
     transform: rotate(-75.39deg);
     background: url("../images/heart_game_1.svg");
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .spade_game_2 {
     position: absolute;
-    top: 550.84px;
-    right: -351.38px;
-    width: 369.31px;
-    height: 403.7px;
+    top: 28.690vw;
+    right: -18.301vw;
+    width: 19.235vw;
+    height: 21.026vw;
     transform: rotate(1.33deg);
     background: url("../images/spade_game_2.svg");
     background-size: cover;
@@ -139,10 +175,10 @@ body {
 
 .diamond_game_1 {
     position: absolute;
-    top: 612.68px;
-    right: 616.18px;
-    width: 550.47px;
-    height: 771.06px;
+    top: 31.910vw;
+    right: 32.093vw;
+    width: 28.670vw;
+    height: 40.159vw;
     transform: rotate(-22.14deg);
     background: url("../images/diamond_game_1.svg");
     background-size: cover;
@@ -150,11 +186,27 @@ body {
 
 .diamond_game_2 {
     position: absolute;
-    top: -59px;
-    right: -224.29px;
-    width: 550.47px;
-    height: 771.06px;
+    top: -1.073vw;
+    right: -26.682vw;
+    width: 45.67vw;
+    height: 40.159vw;
     transform: rotate(33.44deg);
     background: url("../images/diamond_game_2.svg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.diamond_game_2 > a {
+    margin-top: 12vw;
+    margin-left: 0vw;
+    font-size: 5vw;
+    opacity: 0;
+}
+
+.diamond_game_2:hover {
+    background: url("../images/over_di.svg");
     background-size: cover;
 }

@@ -65,12 +65,11 @@ button {
 
 .img4 {
     background: url('../images/hood.png');
-    transform: rotate(-13.13deg);
     background-size: cover;
     width: 15.913vw;
     height: 14.634vw;
-    margin-top: 8.688vw;
-    margin-left: -1.667vw;
+    margin-top: 4.688vw;
+    margin-left: 1.333vw;
 }
 
 .img5 {
@@ -110,11 +109,14 @@ button {
 .img9 {
     background: url('../images/book2.png');
     background-size: cover;
-    transform: rotate(-99.51deg);
     width: 15.322vw;
     height: 12.281vw;
-    margin-top: 6.354vw;
-    margin-left: 2.240vw;
+    margin-top: 4.354vw;
+    margin-left: -3.76vw;
+}
+
+.cont4, .cont5 {
+    display: none;
 }
 
 .text1 {
@@ -221,9 +223,8 @@ button {
 .tri {
     background: url('../images/tri.svg');
     background-size: cover;
-    width: 33.377vw;
-    height: 28.689vw;
-    transform: rotate(12.93deg);
+    width: 28.701vw;
+    height: 27.177vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,9 +233,8 @@ button {
 .tri2 {
     background: url('../images/tri2.svg');
     background-size: cover;
-    width: 27.398vw;
-    height: 23.761vw;
-    transform: rotate(99.51deg);
+    width: 24.398vw;
+    height: 25.761vw;
     display: flex;
     justify-content: center;
     align-items: center;

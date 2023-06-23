@@ -1,59 +1,556 @@
-@media all and (max-width: 768px) {
+@media all and (min-width: 415px) and (max-width: 768px) {
     body {
         overflow: hidden;
     }
     
     .form {
-        width: 200%;
-        /* height: 133.333vw; */
+        width: 144.271vw;
+        height: 96.745vw;
+        margin-left: -25.5vw;
+        margin-top: 26.63vw;
+        z-index: 2;
     }
 
-    /* .rec_violet {
-        width: 35.801vw;
-        height: 29.388vw;
-        left: -6.723vw;
-        top: 20.776vw;
+    .head_text {
+        font-size: 3.436vw;
     }
 
-    .rec_pink {
-        width: 51.306vw;
-        height: 51.712vw;
-        left: 25.426vw;
-        top: 16.555vw;
+    .form_desc {
+        top: 38.19vw;
+        left: 6.586vw;
+        width: 85.277vw;
+        height: 72.914vw;
+        z-index: 2;
     }
 
-    .rec_orange {
-        width: 59.181vw;
-        height: 35.07vw;
-        left: 22.422vw;
-        top: 57.796vw;
+    .orange_block {
+        width: 100%;
+        margin-top: 3.255vw;
+        height: 15.706vw;
     }
 
-    .round_blue {
-        width: 50.656vw;
-        height: 50.656vw;
-        left: 68.857vw;
-        top: 48.216vw;
+    .dop_1 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 2.083vw;
+        left: 6.042vw;
+        width: 44.256vw;
+        height: 38.975vw;
+        background: url('../images/dop_1.svg');
+        background-size: cover;
     }
 
-    .heart {
-        width: 51.113vw;
-        height: 45.69vw;
-        left: 58.465vw;
-        top: 10.385vw;
+    .dop_2 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 63.542vw;
+        left: 8.750vw;
+        width: 54.090vw;
+        height: 75.133vw;
+        background: url('../images/dop_2.svg');
+        background-size: cover;
     }
 
-    .tr {
-        width: 45.408vw;
-        height: 44.408vw;
-        left: -19.376vw;
-        top: 60.13vw;
+    .dop_3 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 83.542vw;
+        left: 41.458vw;
+        width: 52.167vw;
+        height: 50.990vw;
+        background: url('../images/dop_3.svg');
+        background-size: cover;
     }
 
-    .rhomb {
-        width: 42.692vw;
-        height: 43.940vw;
-        left: -5.990vw;
-        top: 4.7vw;
-    } */
+    .rec_red_f {
+        width: 100%; 
+        height: 15.706vw;
+        margin-top: 2.083vw;
+    }
+
+    .pink_block {
+        width: 100%;
+        height: 15.706vw;
+        margin-top: 2.083vw;
+    }
+
+    .orange_block > div {
+        width: 40.967vw;
+        height: 100%;
+    }
+
+    .p_name {
+        margin-top: 1.939vw;
+        margin-left: 1.337vw;
+        font-size: 3.436vw;
+    }
+
+    .input_name {
+        width: 29.072vw;
+        height: 5.346vw;
+        margin-top: 1.007vw;
+        margin-left: 1.007vw;
+        font-size: 2.506vw;
+    }
+
+    .rec_red_f > input {
+        width: 73.382vw;
+        height: 5.346vw;
+        margin-top: 1.007vw;
+        margin-left: 1.007vw;
+        font-size: 2.506vw;
+    }
+
+    .rec_red_f > p {
+        font-size: 3.436vw;
+        margin-top: 1.007vw;
+        margin-left: 1.007vw;
+    }
+
+    .pink_block > div {
+        width: 40.967vw;
+        height: 15.706vw;
+    }
+
+    .round_dop {
+        display: block;
+        position: absolute;
+        width: 43.147vw;
+        height: 43.147vw;
+        background-color: #D40606;
+        border-radius: 50%;
+        top: 12.333vw;
+        right: 6.167vw;
+        z-index: 1;
+    }
+
+    .button {
+        width: 40.967vw;
+        height: 8.421vw;
+        margin-top: 1.736vw;
+        font-size: 3.436vw;
+    }
+}
+
+@media all and (max-width: 414px) {
+    body {
+        overflow: hidden;
+    }
+    .form {
+        width: 235.024vw;
+        height: 157.729vw;
+        margin-left: -72.5vw;;
+        margin-top: 26.63vw;
+        z-index: 2;
+    }
+
+    .head_text {
+        font-size: 5.640vw;
+    }
+
+    .form_desc {
+        top: 36.19vw;
+        left: 13.586vw;
+        width: 67.838vw;
+        height: 166.507vw   ;
+        z-index: 2;
+    }
+
+    .orange_block {
+        width: 100%;
+        margin-top: 5.556vw;
+        height: 53.196vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dop_1 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 2.083vw;
+        left: -6.958vw;
+        width: 55.256vw;
+        height: 48.975vw;
+        background: url('../images/dop_1.svg');
+        background-size: cover;
+    }
+
+    .dop_2 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 102.542vw;
+        left: -19.25vw;
+        width: 95.09vw;
+        height: 135.133vw;
+        background: url('../images/dop_2.svg');
+        background-size: cover;
+    }
+
+    .dop_3 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 137.542vw;
+        left: 38.458vw;
+        width: 90.167vw;
+        height: 84.99vw;
+        background: url('../images/dop_3.svg');
+        background-size: cover;
+    }
+
+    .rec_red_f {
+        width: 100%; 
+        height: 25.780vw;
+        margin-top: 0;
+    }
+
+    .pink_block {
+        width: 100%;
+        height: 53.196vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.635vw;
+    }
+
+    .orange_block > div {
+        width: 100%;
+        height: 25.780vw;
+    }
+
+    .p_name {
+        margin-top: 3.181vw;
+        margin-left: 2.193vw;
+        font-size: 5.640vw;
+    }
+
+    .input_name {
+        width: 47.720vw;
+        height: 8.775vw;
+        margin-top: 3.133vw;
+        margin-left: 2.193vw;
+        font-size: 3.706vw;
+    }
+
+    .rec_red_f > input {
+        width: 47.72vw;
+        height: 8.775vw;
+        margin-top: 3.133vw;
+        margin-left: 2.193vw;
+        font-size: 3.706vw;;
+    }
+
+    .rec_red_f > p {
+        margin-top: 3.181vw;
+        margin-left: 2.193vw;
+        font-size: 5.640vw;
+    }
+
+    .pink_block > div {
+        width: 100%;
+        height: 25.780vw;
+    }
+
+    .round_dop {
+        display: block;
+        position: absolute;
+        width: 50.147vw;
+        height: 50.147vw;
+        background-color: #D40606;
+        border-radius: 50%;
+        top: 10.333vw;
+        right: -5.833vw;
+        z-index: 1;
+    }
+
+    .button {
+        width: 100%;
+        height: 13.824vw;
+        margin-top: 5.152vw;
+        font-size: 5.640vw;
+    }
+}
+
+    @media all and (min-width: 361) and (max-width: 414px) {
+    body {
+        overflow: hidden;
+    }
+    .form {
+        width: 235.024vw;
+        height: 157.729vw;
+        margin-left: -72.5vw;;
+        margin-top: 26.63vw;
+        z-index: 2;
+    }
+
+    .head_text {
+        font-size: 5.640vw;
+    }
+
+    .form_desc {
+        top: 36.19vw;
+        left: 13.586vw;
+        width: 67.838vw;
+        height: 166.507vw   ;
+        z-index: 2;
+    }
+
+    .orange_block {
+        width: 100%;
+        margin-top: 5.556vw;
+        height: 53.196vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dop_1 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 2.083vw;
+        left: -6.958vw;
+        width: 55.256vw;
+        height: 48.975vw;
+        background: url('../images/dop_1.svg');
+        background-size: cover;
+    }
+
+    .dop_2 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 102.542vw;
+        left: -19.25vw;
+        width: 95.09vw;
+        height: 135.133vw;
+        background: url('../images/dop_2.svg');
+        background-size: cover;
+    }
+
+    .dop_3 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 137.542vw;
+        left: 38.458vw;
+        width: 90.167vw;
+        height: 84.99vw;
+        background: url('../images/dop_3.svg');
+        background-size: cover;
+    }
+
+    .rec_red_f {
+        width: 100%; 
+        height: 25.780vw;
+        margin-top: 0;
+    }
+
+    .pink_block {
+        width: 100%;
+        height: 53.196vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.635vw;
+    }
+
+    .orange_block > div {
+        width: 100%;
+        height: 25.780vw;
+    }
+
+    .p_name {
+        margin-top: 3.181vw;
+        margin-left: 2.193vw;
+        font-size: 5.640vw;
+    }
+
+    .input_name {
+        width: 47.720vw;
+        height: 8.775vw;
+        margin-top: 3.133vw;
+        margin-left: 2.193vw;
+        font-size: 3.706vw;
+    }
+
+    .rec_red_f > input {
+        width: 47.72vw;
+        height: 8.775vw;
+        margin-top: 3.133vw;
+        margin-left: 2.193vw;
+        font-size: 3.706vw;;
+    }
+
+    .rec_red_f > p {
+        margin-top: 3.181vw;
+        margin-left: 2.193vw;
+        font-size: 5.640vw;
+    }
+
+    .pink_block > div {
+        width: 100%;
+        height: 25.780vw;
+    }
+
+    .round_dop {
+        display: block;
+        position: absolute;
+        width: 50.147vw;
+        height: 50.147vw;
+        background-color: #D40606;
+        border-radius: 50%;
+        top: 10.333vw;
+        right: -5.833vw;
+        z-index: 1;
+    }
+
+    .button {
+        width: 100%;
+        height: 13.824vw;
+        margin-top: 5.152vw;
+        font-size: 5.640vw;
+    }
+}
+
+@media all and (max-width: 360px) {
+    body {
+        overflow: hidden;
+    }
+    .form {
+        width: 179.722vw;
+        height: 120.556vw;
+        margin-left: -43.5vw;
+        margin-top: 26.63vw;
+        z-index: 2;
+    }
+
+    .head_text {
+        font-size: 4.272vw;
+    }
+
+    .form_desc {
+        top: 36.19vw;
+        left: 22.586vw;
+        width: 51.397vw;
+        height: 126.156vw;
+        z-index: 2;
+    }
+
+    .orange_block {
+        width: 100%;
+        margin-top: 4.158vw;
+        height: 40.306vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dop_1 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 2.083vw;
+        left: -6.958vw;
+        width: 55.256vw;
+        height: 48.975vw;
+        background: url('../images/dop_1.svg');
+        background-size: cover;
+    }
+
+    .dop_2 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 93.542vw;
+        left: -11.25vw;
+        width: 70.09vw;
+        height: 99.133vw;
+        background: url('../images/dop_2.svg');
+        background-size: cover;
+    }
+
+    .dop_3 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 102.542vw;
+        left: 30.458vw;
+        width: 90.167vw;
+        height: 84.99vw;
+        background: url('../images/dop_3.svg');
+        background-size: cover;
+    }
+
+    .rec_red_f {
+        width: 100%; 
+        height: 19.533vw;
+        margin-top: 0;
+    }
+
+    .pink_block {
+        width: 100%;
+        height: 40.306vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1vw;
+    }
+
+    .orange_block > div {
+        width: 100%;
+        height: 19.533vw;
+    }
+
+    .p_name {
+        margin-top: 2.411vw;
+        margin-left: 1.661vw;
+        font-size: 4.272vw;
+    }
+
+    .input_name {
+        width: 36.156vw;
+        height: 6.650vw;
+        margin-top: 2.314vw;
+        margin-left: 1.661vw;
+        font-size: 3.306vw;
+    }
+
+    .rec_red_f > input {
+        width: 36.156vw;
+        height: 6.65vw;
+        margin-top: 2.314vw;
+        margin-left: 1.661vw;
+        font-size: 3.306vw;
+    }
+
+    .rec_red_f > p {
+        margin-top: 2.411vw;
+        margin-left: 1.661vw;
+        font-size: 4.272vw;
+    }
+
+    .pink_block > div {
+        width: 100%;
+        height: 19.533vw;
+    }
+
+    .round_dop {
+        display: block;
+        position: absolute;
+        width: 50.147vw;
+        height: 50.147vw;
+        background-color: #D40606;
+        border-radius: 50%;
+        top: 10.333vw;
+        right: -5.833vw;
+        z-index: 1;
+    }
+
+    .button {
+        width: 100%;
+        height: 10.472vw;
+        margin-top: 3.903vw;
+        font-size: 4.272vw;
+    }
 }

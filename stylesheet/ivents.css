@@ -1,6 +1,14 @@
 body {
     overflow: hidden;
+    position: relative;
 }
+
+.head {
+    z-index: 5;
+    /* top: 59px; */
+    width: 100%;
+    background-color: #161616;
+} 
 
 .back_posters {
     width: 100%;
@@ -168,18 +176,23 @@ body {
     background: url("../images/posters/18.svg");
 }
 
-.overlay_posters {
+.over {
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 58px; */
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay_posters {
     cursor: move;
     width: 281.302vw;
     height: 159.896vw;
-    z-index: 2;
-    /* display: none; */
-    /* width: 1920px;
-    height: 1080px; */
-    background: url("../images/overlay1.svg");
+    margin-top: -55vw;
+    margin-left: -85vw;
+    background: url("../images/overlay2.svg");
+    background-size: cover;
 }
 
 @keyframes movement {
