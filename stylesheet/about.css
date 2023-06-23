@@ -115,7 +115,6 @@ body {
 .slider {
     top: 100vh;
     position: absolute;
-    width: 100vw;
     height: 30.450vw;
     overflow: hidden;
     display: none;

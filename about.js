@@ -115,13 +115,8 @@ $(document).ready(function(){
         });
     });
 
-    // let hor = $(".images");
-    $('window').on('scroll', function () {
-        let top = $(".slider").scrollTop();
-        let lim = $(".images").position().top - $(".images")[0].scrollLeft - ($(window).height() - $(".images").outerHeight()) / 2;
-        let width = $(".images")[0].scrollWidth - $(".images").outerWidth();
-        let delta = Math.min(Math.max(top - lim, 0), width);
-        
-        $(".images")[0].scrollLeft = delta;
-      });
+    $(function() {
+        $(".images").draggable({ axis: "x" });
+    });
+
 }(jQuery));
