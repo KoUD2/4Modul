@@ -8,7 +8,7 @@ $(document).ready(function(){
 	}
 
 	$('.over').dblclick(function(){
-		$('.overlay_posters').css("background",`url("C:/Users/kosti/OneDrive/Рабочий стол/4Modul/images/overlay${int1(2, 21)}.svg")`);
+		$('.overlay_posters').css("background",`url("https://koud2.github.io/4Modul/images/overlay${int1(2, 21)}.svg")`);
 		$('.overlay_posters').css("background-size","cover");
 	});
 });
